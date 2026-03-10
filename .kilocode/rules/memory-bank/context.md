@@ -1,4 +1,4 @@
-# Active Context: Next.js Starter Template
+# Active Context: Ridercms Battery Charging App
 
 ## Current State
 
