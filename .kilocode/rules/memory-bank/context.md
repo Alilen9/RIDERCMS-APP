@@ -1,89 +1,48 @@
-# Active Context: Ridercms Battery Charging App
+# Active Context: Ridercms Battery Charging App (Flutter)
 
 ## Current State
 
-**Template Status**: ✅ Ready for development
+**App Status**: ✅ Complete - Flutter mobile app with 13 screens
 
-The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. It's ready for AI-assisted expansion to build any type of application.
+The Ridercms ChargePod battery charging app is now a Flutter mobile application. The complete user flow from onboarding to session completion is implemented.
 
 ## Recently Completed
 
-- [x] Base Next.js 16 setup with App Router
-- [x] TypeScript configuration with strict mode
-- [x] Tailwind CSS 4 integration
-- [x] ESLint configuration
-- [x] Memory bank documentation
-- [x] Recipe system for common features
+- [x] Remove Next.js web app (now Flutter only)
+- [x] Complete Flutter app with 13 screens
+- [x] Dark theme implementation
+- [x] Navigation between all screens
 
 ## Current Structure
 
 | File/Directory | Purpose | Status |
 |----------------|---------|--------|
-| `src/app/page.tsx` | Home page | ✅ Ready |
-| `src/app/layout.tsx` | Root layout | ✅ Ready |
-| `src/app/globals.css` | Global styles | ✅ Ready |
+| `ridercms_flutter/` | Flutter mobile app | ✅ Complete |
+| `ridercms_flutter/lib/main.dart` | App entry point | ✅ Ready |
+| `ridercms_flutter/lib/screens/` | 13 screen files | ✅ Ready |
+| `ridercms_flutter/lib/widgets/` | Shared widgets | ✅ Ready |
 | `.kilocode/` | AI context & recipes | ✅ Ready |
 
 ## Current Focus
 
-The template is ready. Next steps depend on user requirements:
+The Flutter app is complete and ready to run. To run the app:
 
-1. What type of application to build
-2. What features are needed
-3. Design/branding preferences
-
-## Quick Start Guide
-
-### To add a new page:
-
-Create a file at `src/app/[route]/page.tsx`:
-```tsx
-export default function NewPage() {
-  return <div>New page content</div>;
-}
+```bash
+cd ridercms_flutter
+flutter run
 ```
 
-### To add components:
+## Screen Flow
 
-Create `src/components/` directory and add components:
-```tsx
-// src/components/ui/Button.tsx
-export function Button({ children }: { children: React.ReactNode }) {
-  return <button className="px-4 py-2 bg-blue-600 text-white rounded">{children}</button>;
-}
 ```
-
-### To add a database:
-
-Follow `.kilocode/recipes/add-database.md`
-
-### To add API routes:
-
-Create `src/app/api/[route]/route.ts`:
-```tsx
-import { NextResponse } from "next/server";
-
-export async function GET() {
-  return NextResponse.json({ message: "Hello" });
-}
+Splash → Login → Dashboard → Map → Scan → Slot Assigned → Charging → Battery Ready → Collect → Payment → Payment Processing → Payment Success → Session Complete
 ```
-
-## Available Recipes
-
-| Recipe | File | Use Case |
-|--------|------|----------|
-| Add Database | `.kilocode/recipes/add-database.md` | Data persistence with Drizzle + SQLite |
-
-## Pending Improvements
-
-- [ ] Add more recipes (auth, email, etc.)
-- [ ] Add example components
-- [ ] Add testing setup recipe
 
 ## Session History
 
 | Date | Changes |
 |------|---------|
 | Initial | Template created with base setup |
-| Mar 10, 2026 | Built full ChargePod battery charging app with 13 screens covering the complete user flow from onboarding to session completion |
-| Mar 10, 2026 | Created complete Flutter (Dart) port of the app in `ridercms_flutter/` directory — all 13 screens rewritten in Flutter with matching dark theme, animations, and navigation |
+| Mar 10, 2026 | Built full ChargePod battery charging app with 13 screens (Next.js) |
+| Mar 10, 2026 | Created Flutter port of the app |
+| Mar 10, 2026 | Removed Next.js web app - now Flutter only |
