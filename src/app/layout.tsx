@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ChargePod – Battery Charging Network",
-  description: "Find, charge, and collect your batteries at ChargePod stations near you.",
+  title: "Ridercms – Battery Charging Network",
+  description: "Find, charge, and collect your batteries at Ridercms stations near you.",
 };
 
 export const viewport: Viewport = {

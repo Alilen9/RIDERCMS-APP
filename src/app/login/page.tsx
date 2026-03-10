@@ -28,8 +28,7 @@ export default function LoginPage() {
         </Link>
         <div>
           <div className="flex items-center gap-1">
-            <span className="text-xl font-bold" style={{ color: "var(--primary)" }}>Charge</span>
-            <span className="text-xl font-bold text-white">Pod</span>
+            <span className="text-xl font-bold" style={{ color: "var(--primary)" }}>Ridercms</span>
           </div>
         </div>
       </div>
@@ -69,7 +68,7 @@ export default function LoginPage() {
           <p style={{ color: "var(--text-secondary)", fontSize: "14px" }}>
             {mode === "login"
               ? "Sign in to continue charging"
-              : "Join ChargePod and start charging"}
+              : "Join Ridercms and start charging"}
           </p>
         </div>
 

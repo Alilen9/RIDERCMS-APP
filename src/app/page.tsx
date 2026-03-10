@@ -7,7 +7,7 @@ const slides = [
   {
     icon: "⚡",
     title: "Power Up Anywhere",
-    description: "Find ChargePod stations near you and charge your batteries on the go.",
+    description: "Find Ridercms stations near you and charge your batteries on the go.",
     color: "#00C896",
   },
   {
@@ -55,8 +55,7 @@ export default function SplashPage() {
             {slide.icon}
           </div>
           <div className="flex items-center gap-2 justify-center">
-            <span className="text-2xl font-bold" style={{ color: "var(--primary)" }}>Charge</span>
-            <span className="text-2xl font-bold text-white">Pod</span>
+            <span className="text-2xl font-bold" style={{ color: "var(--primary)" }}>Ridercms</span>
           </div>
         </div>
 
