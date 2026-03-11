@@ -63,11 +63,12 @@ class _PaymentProcessingScreenState extends State<PaymentProcessingScreen> {
       backgroundColor: kBgDark,
       body: SafeArea(
         child: Center(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
+          child: SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
                 // Animated circle
                 Stack(
                   alignment: Alignment.center,

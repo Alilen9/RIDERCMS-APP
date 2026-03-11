@@ -76,9 +76,10 @@ class _SplashScreenState extends State<SplashScreen> {
 
               // Main content
               Expanded(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
                     // Logo icon
                     Container(
                       width: 96,
